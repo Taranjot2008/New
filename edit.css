@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+.content{
+    background-color: white;
+    width: 300px;
+    height: 280px;
+    padding: 20px;
+    margin: auto;
+}
+.name{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 10;
+}
+
