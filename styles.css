@@ -1,0 +1,69 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+body{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-content: center;
+}
+
+
+h4{
+margin-bottom: 30px;
+font-size: 35px;
+color: black;
+}
+.main_box{
+height: 400px;
+width: 500px;
+border: 2px solid blue;
+background-color: turquoise;
+border-radius: 10px;
+padding: 30px;
+display: inline-block;
+}
+
+input{
+height: 40px;
+width: 100%;
+border: none;
+padding: 10px;
+margin-bottom: 30px;
+border-radius: 5px;
+}
+
+#submit{
+background-color: orange;
+color: black;
+border: none;
+width: 50px;
+height:30px;
+border-radius: 5px;
+}
+
+#submit:hover{
+cursor: pointer;
+background-color: black;
+color: white;
+box-shadow: 5px;
+transform: scale(1.15);
+}
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+
+#sign_up{
+margin-top: 30px;
+text-align: center;
+}
