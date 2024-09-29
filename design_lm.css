@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bgimage{
+    background-image: url('Lotus Evija testing latest.jpg');
+    height: 500px;
+    background-size: cover;
+}
+
+#navbar{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 40px;
+    height: 50px;
+
+}
+button{
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    background-color: transparent;
+    color: white;
+}
+
+
+
+#main{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.4);
+    color: orange;
+}
+
+#lyrical_music{
+    display: flex;
+    height: 300px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+#content{
+    width: 50%;
+}
+#heading1{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#content1{
+    width: 100%;
+}
+
+#qr1{
+    background-image: url('Lotus Evija testing latest.jpg');
+    background-size: cover;
+    margin-right: auto;
+    margin-left: auto;
+    height: 200px;
+    width: 200px;
+    justify-content: right;
+}
+
+hr{
+    margin: auto;
+    width: 60%;
+}
+
+#blahblah{
+    display: flex;
+    height: 300px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+#blahcontent{
+    width: 50%;
+}
+
+#heading2{
+    display: inline-block;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+#content2{
+    width: 100%;
+}
+
+#qr2{
+    background-image: url('Lotus Evija testing latest.jpg');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+    justify-content: right;
+}
